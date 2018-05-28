@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ Bookmark List
+    {% for bookmark in object_list %}
+        {{bookmark.site_name}}
+        {{bookmark.url}}<br/>
+    {% endfor %}
+</body>
+</html>
